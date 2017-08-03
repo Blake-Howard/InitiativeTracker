@@ -35,7 +35,7 @@ public class Player {
     private boolean stunned;
     private boolean unconscious;
 
-//**********************
+    //**********************
     //Condition getter and setters
     public String getName() {
         return name;
