@@ -14,7 +14,7 @@ public class Player {
 
     //constructor
     public Player(String name){
-        name = this.name;
+        this.name = name;
     }
 
     //condition variables

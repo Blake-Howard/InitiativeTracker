@@ -10,13 +10,16 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    ArrayList<Player> players = new ArrayList<Player>();
-    //Basic Array of strings
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ArrayList<Player> players = new ArrayList<Player>();
+        //Basic Array of strings
+
         players.add(new Player("Elzaron"));
         players.add(new Player("Dalben"));
         players.add(new Player("Tordic"));
